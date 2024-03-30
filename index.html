@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tac+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 id="score">0</h2>
+                <div class="button">
+                    <button class="scorebtn" id="Home1" onclick="incrementone()">+1</button>
+                    <button class="scorebtn" id="Home2" onclick="incrementtwo()">+2</button>
+                    <button class="scorebtn" id="Home3" onclick="incrementthree()">+3</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 id="gscore">0</h2>
+                <div class="button">
+                    <button class="scorebtn" id="Guest1" onclick="gincrementone()">+1</button>
+                    <button class="scorebtn" id="Guest2" onclick="gincrementtwo()">+2</button>
+                    <button class="scorebtn" id="Guest3" onclick="gincrementthree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
